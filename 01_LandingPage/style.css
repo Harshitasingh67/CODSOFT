@@ -6,6 +6,10 @@ padding:0px;
 box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(250, 250, 247);
+}
+
 /* Navbar css code */
 
 nav{
@@ -158,4 +162,196 @@ width:95%
 
 .container_right_bottom button span:first-child{
     border-right: 1px solid black;
+}
+
+/* Main bottom section CSS starts from here */
+
+.main_bottom{
+    margin-top: 100px;
+    padding: 50px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(46, 45, 45)
+}
+
+.weight{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.weight h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.weight p{
+    font-size:12px;
+    text-align: center;
+}
+
+.speed{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.speed h1{
+    padding-bottom: 6px;
+ font-size:30px;
+}
+
+.speed p{
+    font-size:12px;
+    text-align: center;}
+
+.range{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.range h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.range p{
+    font-size:12px;
+    text-align: center;
+}
+
+.torque{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.torque h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.torque p{
+    font-size:12px;
+    text-align: center;
+}
+
+.climbing{
+    border:1px solid teal;
+    padding:15px 25px;
+box-shadow: 0px 0px 2px green;
+}
+
+.climbing h1{
+    padding-bottom: 6px;
+     font-size:30px;
+}
+
+.climbing p{
+    font-size:12px;
+    text-align: center;
+}
+
+.brakes{
+    border:1px solid teal;
+    padding:15px 25px;
+    box-shadow: 0px 0px 2px green;
+}
+
+.brakes h1{
+    padding-bottom: 6px;
+     text-align: center;
+     font-size:30px;
+}
+
+.brakes p{
+    font-size:12px;
+   
+}
+
+ /* Product information CSS code starts from here  */
+
+ .product_info{
+    color:rgb(47, 46, 46);
+    
+    padding: 40px  40px;
+    
+ }
+
+ .product_info h1{
+padding-bottom:20px;
+font-size: 50px;
+text-align: center;
+ }
+
+ .product_info>p{
+padding-bottom:20px;
+font-size: 20px;
+text-align: center;
+ }
+
+ .Product_info_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .product_image {
+width:40%;
+ }
+
+ .product_features p{
+    padding-bottom:5px;
+ }
+
+ /* High efficiency section starts from here */
+
+ .High_efficiency img {
+    width:96%;
+ }
+
+ /* Multiple accessories section starts from here */
+
+ .multiple_accessories{
+    padding-top:40px;
+    text-align: center;
+    color: rgb(47, 46, 46);
+ }
+
+ .multiple_accessories h1{
+    padding-bottom: 20px;
+        font-size: 45px;
+ }
+
+ .multiple_accessories p{
+    font-size:20px;
+    padding-bottom: 40px;
+ }
+
+ .product_features div {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 10px;
+}
+
+.accessories{
+    display:flex;
+    align-items: center;
+    padding:30px 40px;
+}
+
+.accessories_1 div{
+    display:flex;
+    align-items: center;
+    padding-bottom: 10px;
+    gap:15px;
+}
+
+.accessories_1 h1{
+    font-size:45px;
+        color: rgb(47, 46, 46);
+        padding-bottom: 30px;
 }
