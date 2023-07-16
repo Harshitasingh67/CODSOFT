@@ -15,7 +15,8 @@ nav{
     padding:10px;
     padding-left: 35px;
     padding-right: 35px;
-    border:1px solid rgb(186, 180, 180)
+    border:1px solid rgb(186, 180, 180);
+    text-transform:uppercase;
 }
 
 ul{
@@ -29,18 +30,132 @@ gap:55px
 .nav_button{
     display: flex;
     gap:26px;
+    
+    flex-direction: row;
 }
 
 .nav_button button:first-child{
     border:1px solid transparent;
     background-color: transparent;
+    text-transform: uppercase;
 }
 
 .nav_button button:last-child{
     color:white;
+    text-transform: uppercase;
     padding: 11px 15px;
     background-color: rgb(60, 56, 56);
     border:1px solid rgb(60, 56, 56);
     border-radius: 4px;
 }
 
+/* Main section css starts from here */
+
+main{
+    margin-top: 50px;
+    padding:5px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container_left{
+    width:60%;
+}
+.container_left h1{
+    text-transform: uppercase;
+    font-size:77px;
+    font-weight: 100;
+    color:rgb(75, 69, 69);
+    margin-bottom: 50px;
+   
+}
+
+.container_left h1 span{
+    color:rgb(28, 27, 27);
+    font-weight: bold;
+    
+}
+
+.main_section_line{
+    height: 3px;
+    width:280px;
+    background-color: rgb(35, 33, 33);
+    margin-bottom: 40px;
+}
+
+.container_left>p{
+    font-size:20px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.container_left_bottom{
+display: flex; gap:40px
+}
+
+.left_bottom_one{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.left_bottom_one p{
+color:white;
+font-weight: bold;
+font-size:20px;
+padding:10px 20px;
+border:1px solid black;
+width: fit-content;
+    height: fit-content;
+    background-color: rgb(33, 30, 30);
+}
+
+.left_bottom_one button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    width:fit-content;
+    height: fit-content;
+    font-weight: bold;
+    font-size:20px
+}
+
+.left_bottom_two{
+    display: flex;
+    gap:10px;
+}
+
+.left_bottom_two p{
+    width:100px;
+    color: rgb(68, 67, 67);
+    font-weight:60px
+}
+
+.container_right img{
+width:95%
+}
+
+.container_right{
+    position: relative;
+}
+
+.container_right_bottom{
+    
+    position: absolute;
+    right:10px;
+    display: flex;
+    align-items: center
+}
+
+.container_right_bottom img{
+    width:150px; margin-right: 10px;
+}
+
+.container_right_bottom button{
+    height:28px;
+    width:50px;
+    border-radius: 24px;
+}
+
+.container_right_bottom button span:first-child{
+    border-right: 1px solid black;
+}
