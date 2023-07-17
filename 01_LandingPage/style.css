@@ -584,13 +584,13 @@ background-color: rgb(78, 75, 75);
 
  /* Subscribe to Newsletter section CSS code */
 
- .Subcribe_to_newsletter{
+ .Subscribe_to_newsletter{
     text-align: center;
     margin-top:30px;
     color:rgb(66, 66, 66)
  }
 
- .Subcribe_to_newsletter h1{
+ .Subscribe_to_newsletter h1{
     font-size:40px;
     padding-bottom: 15px;
  }
@@ -614,4 +614,15 @@ background-color: rgb(54, 53, 53);
 border: 1px solid gray;
     border-radius: 4px;
 }
+
+/* Footer section starts from here */
+
+footer{
+    background-color: rgb(54, 53, 53);
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    color:white
+}
+
 
