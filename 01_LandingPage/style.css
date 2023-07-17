@@ -23,7 +23,7 @@ nav{
     text-transform:uppercase;
 }
 
-ul{
+ nav ul{
     display: flex;
     align-items: center;
 list-style: none;
@@ -619,10 +619,64 @@ border: 1px solid gray;
 
 footer{
     background-color: rgb(54, 53, 53);
-    margin-top:50px;
+    margin-top: 50px;
     display: flex;
-    align-items: center;
-    color:white
+    flex-direction: column;
+    color:white;
+    position:relative;
+padding:20px 0px;
+
+
 }
 
+.footer img {
+position:absolute;
+bottom:0px;
+width:40px;
+}
+
+
+
+.footer_rightSide{
+   
+        padding-right: 50px;
+        width:100%;
+        display: flex;
+            align-self: flex-end;
+            gap: 90px;
+            justify-content: flex-end;
+}
+
+.footer_rightSide ul{
+    list-style: none;
+}
+
+.footer_rightSide ul li:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.footer_rightSide ul li{
+    padding-bottom:30px
+}
+
+.Legals li:last-child{
+    display: flex;
+    gap:10px;
+
+}
+
+.Legals li i{
+    margin-top: 40px;
+    border:1px solid white;
+    padding:10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+footer>p{
+    text-align: center;
+
+}
 
