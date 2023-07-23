@@ -133,3 +133,46 @@ button:first-child{
     line-height:24px;
     letter-spacing:1px
 }
+
+/* Skills section starts from here-- */
+
+.myskills {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.myskills h1 {
+    font-family: 'Lumanosimo', cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.myskills_container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:45px;
+}
+
+.myskills_container_card img{
+    width:60px;
+    height:60px;
+}
+
+.myskills_container_card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+        padding:20px;
+        border-radius: 10px;
+        border:1.5px solid purple;
+}
+
+.myskills_container_card:hover{
+    border:none;
+    box-shadow:0 0 10px purple ;
+}
+
