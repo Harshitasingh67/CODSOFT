@@ -241,3 +241,56 @@ width: 350px;
     justify-content: center;
     gap:10px;
  }
+
+ /* Certificates section stars from here */
+
+ .my_Certificates {
+     margin-top: 80px;
+     margin-bottom: 40px;
+ }
+
+ .my_Certificates h1 {
+     font-family: 'Lumanosimo', cursive;
+     font-size: 35px;
+     margin-bottom: 80px;
+     text-align: center;
+ }
+
+ .certificates_container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 40px;
+     flex-wrap: wrap;
+ }
+
+ .certificates_container_card img {
+     width: 350px;
+ }
+
+ .certificates_container_card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 10px 20px;
+     border-radius: 10px;
+     border: 1.5px solid purple;
+     width: 400px;
+     gap: 15px;
+     align-self: stretch;
+ }
+
+ .certificates_container_card:hover {
+     border: none;
+     box-shadow: 0 0 10px purple;
+ }
+
+ /* .my_projects_heading_section {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+ } */
+
+ 
