@@ -286,11 +286,78 @@ width: 350px;
      box-shadow: 0 0 10px purple;
  }
 
- /* .my_projects_heading_section {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     width: 100%;
- } */
+  /* Contact section starts from here-- */
 
- 
+.contact_me{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.contact_me h3{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 35px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+ .contact_me_container{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+ }
+
+ .contact_me_container img{
+    width:500px;
+
+ }
+
+ .contact_me_container form{
+    border:1.5px solid purple;
+    border-radius: 8px;
+    padding:30px 40px;
+    width:400px;
+    background-color: purple;
+    color: white;
+ }
+
+ .contact_me_container form label,input,textarea{
+    
+    margin-bottom: 8px;
+
+ }
+
+ .contact_me_container form textarea{
+    border:1.5px solid purple;
+    height:80px;
+    padding: 8px 5px
+ }
+
+ .contact_me_container form label{
+    margin-right: 5px;
+    background-color: transparent;
+ }
+
+ .contact_me_container form input{
+    margin:8px 5px;
+    border: 1.5px solid white;
+    padding:5px 10px
+ }
+
+ .label{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .contact_me_container form button{
+    margin-top:18px;
+    border: 1.5px solid purple;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-weight: 500;
+    width:100%;
+    font-size: 19px;
+ }
+
+ .contact_me_container form div{
+    background-color: transparent;
+ }
