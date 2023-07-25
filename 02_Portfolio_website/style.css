@@ -361,3 +361,23 @@ justify-content: space-between;
  .contact_me_container form div{
     background-color: transparent;
  }
+
+ /* footer section starts from here- */
+
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+
+ }
+
+ .footer_last_section a i{
+font-size: 30px;
+ }
+
+ .footer_last_section{
+    display: flex;
+
+gap:20px;
+ }
