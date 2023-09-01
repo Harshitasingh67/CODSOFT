@@ -1,9 +1,12 @@
 /* reseting css */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 
 *{
 margin:0px;
 padding:0px;
 box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -19,15 +22,19 @@ nav{
     padding:10px;
     padding-left: 35px;
     padding-right: 35px;
-    border:1px solid rgb(186, 180, 180);
+    border-bottom:2px solid rgb(61, 59, 59);
     text-transform:uppercase;
+    background-color: #d6d4d1;
 }
 
  nav ul{
     display: flex;
     align-items: center;
-list-style: none;
-gap:55px
+    list-style: none;
+    gap:55px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -42,6 +49,8 @@ gap:55px
     border:1px solid transparent;
     background-color: transparent;
     text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .nav_button button:last-child{
@@ -51,6 +60,8 @@ gap:55px
     background-color: rgb(60, 56, 56);
     border:1px solid rgb(60, 56, 56);
     border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* Main section css starts from here */
@@ -62,6 +73,11 @@ main{
     justify-content: space-between;
     
 }
+
+#scooter_main{
+    border-right: 5px solid black;
+}
+
 .container_left{
     width:60%;
 }
@@ -178,7 +194,7 @@ width:95%
 .weight{
     border:1px solid teal;
     padding:15px 25px;
-    box-shadow: 0px 0px 2px green;
+    box-shadow: 0px 0px 10px green;
 }
 
 .weight h1{
@@ -194,7 +210,7 @@ width:95%
 .speed{
     border:1px solid teal;
     padding:15px 25px;
-    box-shadow: 0px 0px 2px green;
+    box-shadow: 0px 0px 10px green;
 }
 
 .speed h1{
@@ -209,7 +225,7 @@ width:95%
 .range{
     border:1px solid teal;
     padding:15px 25px;
-    box-shadow: 0px 0px 2px green;
+    box-shadow: 0px 0px 10px green;
 }
 
 .range h1{
@@ -225,7 +241,7 @@ width:95%
 .torque{
     border:1px solid teal;
     padding:15px 25px;
-    box-shadow: 0px 0px 2px green;
+    box-shadow: 0px 0px 10px green;
 }
 
 .torque h1{
@@ -241,7 +257,7 @@ width:95%
 .climbing{
     border:1px solid teal;
     padding:15px 25px;
-box-shadow: 0px 0px 2px green;
+box-shadow: 0px 0px 10px green;
 }
 
 .climbing h1{
@@ -257,7 +273,7 @@ box-shadow: 0px 0px 2px green;
 .brakes{
     border:1px solid teal;
     padding:15px 25px;
-    box-shadow: 0px 0px 2px green;
+    box-shadow: 0px 0px 10px green;
 }
 
 .brakes h1{
@@ -299,7 +315,8 @@ text-align: center;
  }
 
  .product_image {
-width:40%;
+    border-radius:20px ;
+    box-shadow: 2px 2px 20px black;
  }
 
  .product_features p{
@@ -310,6 +327,7 @@ width:40%;
 
  .High_efficiency img {
     width:96%;
+    margin-left:30px ;
  }
 
  /* Multiple accessories section starts from here */
@@ -322,7 +340,8 @@ width:40%;
 
  .multiple_accessories h1{
     padding-bottom: 20px;
-        font-size: 45px;
+    font-size: 45px;
+    font-weight: 400px;
  }
 
  .multiple_accessories p{
@@ -362,18 +381,30 @@ width:40%;
         
 }
 
+.accessories_2{
+    background-color:#ffff;
+    margin-left: 100px;
+    box-shadow: -2px 2px 10px black;
+}
+
 /* Shopping section starts from here  */
 
 .shopping_rack{
     padding-right: 30px;
     display: flex;
     gap:50px;
+    margin: 50px;
+
+}
+
+#shopping_rack{
+    box-shadow: 2px 2px 10px black;
 }
 
 .shopping_rack_right h1{
     font-size: 45px;
-        color: rgb(47, 46, 46);
-        padding-bottom: 30px;
+    color: rgb(47, 46, 46);
+    padding-bottom: 30px;
 }
 
 .shopping_rack_right div {
@@ -397,7 +428,8 @@ width:40%;
 }
 
 .more_accessories h1{
-    border:1px solid rgb(47, 46, 46);
+    border:1px solid #fafaf7;
+    color: #fafaf7;
     text-align: center;
     padding:20px 40px;
     margin-top: 20px;
@@ -406,6 +438,11 @@ width:40%;
     font-size: 30px;
     border-radius: 10px;
     margin-bottom: 80px;
+    background-color:#3c3838 ;
+}
+
+.gallery{
+    border-top: 3px solid;
 }
 
 .gallery h1{
@@ -428,23 +465,26 @@ text-align: center;
 
 .gallery_section {
     display: flex;
-    align-items: center;
     gap:50px;
     padding:10px 40px;
 }
 
 .gallery_leftSide img{
     width:600px;
-    padding-bottom: 50px;
+    box-shadow:2px 2px 10px black ;
+    margin-top: 20px;
 }
 
 .gallery_rightSide img{
     width: 550px;
-    padding-bottom: 50px;
+    box-shadow: 2px 2px 10px black;
+    margin-top:22px ;
+    margin-left:150px ;
 }
 
 .gallery_parts p{
-border:1.5px solid rgb(68, 64, 64);
+border:5px solid rgb(68, 64, 64);
+margin-top: 50px;
 margin-bottom: 30px;
 width:450px;
 padding:23px 50px;text-align: center;
@@ -457,6 +497,7 @@ border-radius: 10px;
 .colors{
     text-align: center;
     color:rgb(51, 51, 51);
+    border-top: 3px solid;
 
 }
 
@@ -487,7 +528,25 @@ border-radius: 10px;
 }
 
 .available_colors img{
-    width:25%;
+    width:300px;
+    height: 350px;
+    margin: auto;
+}
+
+#color-scooter-1{
+    box-shadow: 2px 2px 10px #75c1db;
+}
+
+#color-scooter-2{
+    box-shadow: 2px 2px 10px #7cd99a;
+}
+
+#color-scooter-3{
+    box-shadow: 2px 2px 10px #c63c32;
+}
+
+#color-scooter-4{
+    box-shadow: 2px 2px 10px #343434;
 }
 
 /* Testimonials section css */
@@ -523,7 +582,19 @@ border-radius: 10px;
 }
 
 .card_1{
-    box-shadow: 0px 0px 3px gray;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.card_2{
+    box-shadow: 2px 2px 8px gray;
+}
+
+.card_3{
+    box-shadow: 2px 2px 8px gray;
+}
+
+.card_4{
+    box-shadow: 2px 2px 8px gray;
 }
 
 .card_1 p{
